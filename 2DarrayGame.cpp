@@ -2,15 +2,19 @@
 #include <windows.h>
 #include <conio.h>
 using namespace std;
-
+/// fire functioni
 void fire(char maze[][43]);
+// player movements 
 void movePlayerright(char maze[][43], char direction);
 void movePlayerleft(char maze[][43], char direction);
+///printing of maze
 void printMaze(char maze[][43]);
+////fire movement 
 void firemovingup(char maze[][43]);
 bool Move(char maze[][43], int i, int col, char direction);
 bool removefireWall(char maze[][43]);
 void removeFire(char maze[][43]);
+///enemy movement
 void moveEnemy(char maze[][43]);
 int main()
 {
